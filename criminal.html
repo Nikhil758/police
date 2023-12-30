@@ -1,0 +1,64 @@
+<html>
+<head>
+<link rel="stylesheet" href="ss.css">
+<style>
+  body{background-image:url("criminal5.jpg"),url("criminal6.jpg"),url("criminal7.jpg");
+  background-size: 507px 730px;
+  background-repeat: no-repeat;
+  background-position: right,center, left;
+  }
+</style>
+</head>
+<body>
+<div class="login-box">
+  <h2>Criminal Details</h2>
+  <form action="criminal.php" method="post">
+    <div class="user-box">
+      <input type="text" name="crname" required="">
+      <label>Criminal Name</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="crgen" required="">
+      <label>Criminal Gender</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="crph" required="">
+      <label>Criminal Phone</label>
+    </div>
+    <div class="user-box">
+      <input type="text" name="cid" required="">
+      <label>Case Id</label>
+    </div>
+    <div class="user-box">
+      <input id="date" type="date" name="doc" required value="s">
+      <label>DOC</label>
+    </div>
+    <!--<div class="user-box">
+      <select name="datee">
+        <option value="JANUARY">JANUARY</option>
+        <option value="FEBRUARY">FEBRUARY</option>
+        <option value="MARCH">MARCH</option>
+        <option value="APRIL">APRIL</option>
+        <option value="MAY">MAY</option>
+        <option value="JUNE">JUNE</option>
+        <option value="JULY">JULY</option>
+        <option value="AUGUST">AUGUST</option>
+        <option value="SEPTEMBER">SEPTEMBER</option>
+        <option value="OCTOBER">OCTOBER</option>
+        <option value="NOVEMBER">NOVEMBER</option>
+        <option value="DECEMBER">DECEMBER</option>
+        </select>
+      <label></label>
+    </div>-->
+    <a href="#">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <input class="btn" type="submit" value="Submit" >
+    </a>
+    <a href="home.html" class="previous">&laquo; Previous</a>
+  </form>
+</div>
+</body>
+</html>
